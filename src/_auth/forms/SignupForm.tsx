@@ -81,7 +81,7 @@ const SignupForm = () => {
           Create a new account
         </h2>
         <p className="text-light-3 small-medium md:base-regular mt-2">
-          To use simplified networking, Please enter your info
+          To use Simplified Networking, Please enter your info
         </p>
 
         <form
