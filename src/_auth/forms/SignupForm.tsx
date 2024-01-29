@@ -161,7 +161,16 @@ const SignupForm = () => {
               Log in
             </Link>
           </p>
-        </form>
+        <div className="terms-privacy-links text-center mt-2">
+            <Link to="/privacy-policy" className="text-small-regular text-light-2">
+              Privacy Policy
+            </Link>
+        <span className="mx-2">|</span>
+            <Link to="/terms-of-service" className="text-small-regular text-light-2">
+              Terms of Service
+            </Link>
+        </div>
+       </form>
       </div>
     </Form>
   );
